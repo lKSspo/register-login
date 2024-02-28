@@ -4,25 +4,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./styles/style.css">
   
 </head>
 <body>
-    <h2>Acesse sua conta</h2>
-    <form action="" method="">
-        <label for="usuario">Usuário:</label><br>
-        <input type="text" id="usuario" name="usuario"><br>
+    <div class="dialog">
+      <form action="" class="form">
+          <h2>Acesse sua conta</h2>
+          <div class="fields">
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" name="usuario">
+          </div>
 
-        <label for="senha">Senha:</label><br>
-        <input type="password" id="senha" name="senha"><br><br>
-
-        <input type="submit" value="Login">
-    </form>
+          <div class="fields">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha"> 
+          </div> 
+          <div class="button">
+            <button>Login</button>
+          </div>
+      </form>
+    </div>
 
     <p id="mensagem_erro" style="color: red; display: none;">Usuário ou senha incorretos. Tente novamente</p>
     <p id="mensagem_sucesso" style="color: green; display: none">Login bem-Sucedido</p>
 
-    
 </body>
 </html>
 
