@@ -1,5 +1,5 @@
-const express = require('express')
-const app = express()
+import app from './api/app.js'
+
 
 const port = 8080
 app.listen(port, () => {
