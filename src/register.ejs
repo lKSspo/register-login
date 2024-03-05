@@ -13,10 +13,11 @@
     <title>Register-se</title>
 </head>
 <body>
-    <div class="dialog">   
+    <div class="dialog">
         <form action="" class="form">
             <div class="colum">
                 <h2>Cadastre-se</h2>
+
                 <div class="fields">
                     <label for="">Nome e Sobrenome</label>
                     <input type="text" id="nome">
@@ -29,14 +30,29 @@
 
                 <div class="fields">
                     <label for="">Senha</label>
-                    <input type="password" id="password">
+                    <input type="password" id="senha">
+                    <span>
+                        <ion-icon name="eye-outline" id="icon-visible" onclick="togglePasswordVisibility()"></ion-icon>
+                    </span>
                 </div>
+
                 <div class="fields">
                     <label for="">confirma sua senha</label>
-                    <input type="password" id="password">
+                    <input type="password" id="senha-confirmation">
+                    <span>
+                        <ion-icon name="eye-outline" id="icon-visible2" onclick="togglePasswordConfirmationVisibility()"></ion-icon>
+                    </span>
                 </div>
+
+            </div>
+            <div class="button">
+                <button>Registre-se</button>
             </div>
         </form>
     </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./scripts/index.js"></script> 
 </body>
 </html>

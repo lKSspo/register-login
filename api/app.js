@@ -14,6 +14,7 @@ app.set('view engine', 'ejs')
 
 // Usando path.resolve para obter o caminho absoluto para o diretório 'src'
 app.set('views', path.resolve(__dirname, '../src'));
+app.use('/scripts', express.static(path.join(__dirname, '../src/scripts')))
 app.use('/styles',  express.static(path.join(__dirname, '../src/styles')));
 
 
