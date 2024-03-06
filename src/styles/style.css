@@ -8,20 +8,20 @@
     padding: 0;
 }
 
-a {
+
+.button-register{
     border-width: 0px;
     border-color: rgb(39 39 42 / var(--tw-border-opacity));
     border-radius: 8px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 20px;
     padding-bottom: 20px;
     background-color: rgb(39 39 42 / 0.5);
-    width: 100%;
+    width: 100px;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 10px;
     color: #f8fafc;
-    
+    margin-top: 20vh;
 }
 
 label {
@@ -63,7 +63,7 @@ h2 {
 }
 
 .dialog {
-    position: fixed;
+    position: absolute;
     margin-bottom: 40px;
     padding: 120px;
     right: 0px;
@@ -71,7 +71,6 @@ h2 {
     bottom: 0px;
     height: 100vh;
     min-width: 320px;
-    z-index: 10;
     background-color: #09090b;
     border-left-width: 1px;
     border-color: #18181b;
