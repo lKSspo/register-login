@@ -10,6 +10,21 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Hello world</h1>
+  <div class="aside">
+    <h1 id="userName"></h1>
+    <h1 id="userEmail"></h1>
+  </div>
+
+  <script>
+      function User(user) {
+        const name = "Renan Borges"
+        const email = "renan@gmail.com"
+
+        document.getElementById("userName").textContent = name
+        document.getElementById("userEmail").textContent = email
+      }
+
+      window.onload = User
+  </script>
 </body>
 </html>
