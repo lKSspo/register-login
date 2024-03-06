@@ -8,8 +8,15 @@
     padding: 0;
 }
 
+body {
+    width: 100vh;
+    height: 100vh;
+    background: url('./assets/imgs/photo-background.jpg');
+    background-size: cover;
+}
 
-.button-register{
+a {
+    
     border-width: 0px;
     border-color: rgb(39 39 42 / var(--tw-border-opacity));
     border-radius: 8px;
@@ -56,6 +63,14 @@ input {
     font-size: 14px;
     line-height: 20px;
     color: #f8fafc;
+}
+
+ion-icon {
+    color: #4c1d95;
+    position: absolute;
+    right: 111px;
+    cursor: pointer;
+    margin-top: -27px;
 }
 
 h2 {
