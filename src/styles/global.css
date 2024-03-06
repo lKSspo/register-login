@@ -1,0 +1,109 @@
+:root {
+    --tw-border-opacity: 1;
+}
+
+* {
+    font-family: "Inter";
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    width: 100vh;
+    height: 100vh;
+    background: url('./assets/imgs/photo-background.jpg');
+    background-size: cover;
+}
+
+a {
+    
+    border-width: 0px;
+    border-color: rgb(39 39 42 / var(--tw-border-opacity));
+    border-radius: 8px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    background-color: rgb(39 39 42 / 0.5);
+    width: 100px;
+    font-size: 14px;
+    line-height: 10px;
+    color: #f8fafc;
+    margin-top: 20vh;
+}
+
+label {
+    color: #f8fafc;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    display: block;
+}
+
+button {
+    border-width: 0px;
+    border-radius: 8px;
+    border-color: #4c1d95;
+    background-color: #4c1d95;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 108%;
+    color: #f8fafc;
+}
+
+input {
+    border-width: 0px;
+    border-color: rgb(39 39 42 / var(--tw-border-opacity));
+    border-radius: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(39 39 42 / 0.5);
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #f8fafc;
+}
+
+ion-icon {
+    color: #4c1d95;
+    position: absolute;
+    right: 111px;
+    cursor: pointer;
+    margin-top: -27px;
+}
+
+h2 {
+    color: #f8fafc;
+}
+
+.dialog {
+    position: absolute;
+    margin-bottom: 40px;
+    padding: 120px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 100vh;
+    min-width: 320px;
+    background-color: #09090b;
+    border-left-width: 1px;
+    border-color: #18181b;
+}
+
+.form {
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.fields {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.button {
+    margin-top: 30px;
+}
+
