@@ -6,6 +6,34 @@
     <title>Home Page</title>
 </head>
 <body>
+    <div class="dialog">
+      <form action="" class="form">
+          <h2>Acesse sua conta</h2>
+          <div class="fields">
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" name="usuario">
+          </div>
+
+          <div class="fields">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha"> 
+          </div> 
+          <div class="button">
+            <button>Login</button>
+            
+          </div>
+          <div class="button-register">
+            <p>Caso não possui cadastro, clique a baixo</p>
+              <a href="register">Registre-se</a>
+          </div>
+      </form>
+    </div>
+
+    <p id="mensagem_erro" style="color: red; display: none;">Usuário ou senha incorretos. Tente novamente</p>
+    <p id="mensagem_sucesso" style="color: green; display: none">Login bem-Sucedido</p>
+
+
         <h1>Bem Vindo ${Nome User Logado}</h1>
+
 </body>
 </html>
