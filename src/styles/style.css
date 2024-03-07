@@ -5,20 +5,159 @@
     box-sizing: border-box;
 }
 
+main {
+    width: 63%;
+    display: block;
+}
+
+
+
 body {
     background-color: #09090b;
+    padding: 140px;
+    box-sizing: border-box;
+}
+
+.people {
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.about-me {
+    background-color: #18181b;
+    position: relative;
+    width: 70%;
+    height: 30vh;
+    padding: 32px;
+    border-radius: 8px;
+    margin-left: 72vh;
+    margin-top: -44.1vh;
+    color: white;
 }
 
 .aside {
-    margin-left: 30vh;
+    margin-left: 250px;
     color: white;
     position: relative;
     padding-top: 15vh;
     display: block;
     border-radius: 8px;
     background-color: #18181b;
-    margin-top: 100px;
+    margin-top: 28px;
     text-align: center;
-    width: 18.425%;
-    height: 60.425vh;
+    width: 21.905%;
+    height: 55.425vh;
 }
+
+
+/* Media query para telas médias */
+@media (max-width: 1400px) {
+    .about-me {
+        border-radius: 10px;
+        position: relative;
+        width: 105.905%;
+        height: 50vh;
+        margin-left: 380px;
+        margin-top: -64vh;
+    }
+    .aside {
+        margin-left: -4vh;
+        width: 32.905%;
+        margin-top: 30px;
+        height: 80vh;
+    }
+}
+
+@media (max-width: 1200px) {
+    .about-me, .aside {
+        position: relative;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+}
+
+/* Media query para telas pequenas */
+@media (max-width: 768px) {
+    .about-me, .aside {
+        border-radius: 10px;
+        position: relative;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+}
+
+/* Media query para telas muito pequenas (como smartphones) */
+@media (max-width: 280px) {
+    .about-me, .aside{
+        border-radius: 10px;
+        position: relative;
+        width: 50vh;
+        margin-left: -21vh;
+        margin-right: auto;
+        margin-top: 20px;
+        height: 53vh;
+    }
+}
+@media (max-width: 375px) {
+    .about-me {
+        border-radius: 10px;
+        position: relative;
+        width: 50vh;
+        margin-left: 10vh;
+        margin-right: auto;
+        margin-top: 20px;
+        height: 53vh;
+    }
+
+    .aside {
+        border-radius: 10px;
+        position: relative;
+        width: 50vh;
+        margin-left: -50vh;
+        margin-right: auto;
+        margin-top: 20px;
+        height: 53vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-me, .aside{
+        border-radius: 10px;
+        position: relative;
+        width: 50vh;
+        margin-left: -18vh;
+        margin-right: auto;
+        margin-top: 20px;
+        height: 53vh;
+    }
+}
+
+@media (max-width: 500px) {
+     .aside{
+        border-radius: 10px;
+        position: relative;
+        width: 54.5vh;
+        margin-left: -20.1vh;
+        margin-right: auto;
+        margin-top: 20px;
+        height: 80vh;
+    }
+    .about-me {
+        border-radius: 10px;
+        position: relative;
+        width: 54.5vh;
+        margin-left: -20.1vh;
+        margin-right: auto;
+        margin-top: 15px;
+        height: 67vh;
+    }
+}
+
